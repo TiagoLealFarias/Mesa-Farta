@@ -1,0 +1,241 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 90%; /* Ocupa 90% da largura da tela */
+    max-width: 100rem; /* Máximo de 1600px para não ficar gigante em telas grandes */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+
+/**HEADER**/
+
+header {
+    background-color: #ebedeb;
+    display: flex;
+    align-items: center;
+    height: 12rem;
+    padding: 2rem;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.icons-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.icons-header ul li:hover {
+    color: #ce6a1d;
+    cursor: pointer;
+}
+
+.line {
+    background-color: #c8c8c8;
+    height: 0.2rem;
+}
+
+.list-main ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 1rem;
+    list-style-type: none;
+    background-color: #Ebeded;
+    color: #5e5e5e;
+    font-weight: 800;
+    padding: 0.9rem;
+    padding-left: 5rem;
+    
+}
+
+.list-main ul li:hover {
+    color: #338366;
+    cursor: pointer;
+}
+
+#logo-img {
+    height: 13rem;
+}
+
+/** WOMAN **/
+
+.woman {
+    background: linear-gradient(to left, #fad79f, #fb7e31);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: visible; /* Garante que a imagem não seja cortada */
+    height: 22rem;
+}
+
+#woman {
+    width: 28rem; /* Ajuste conforme necessário */
+    height: 28rem;
+    position: relative;
+    top: -6rem; /* Move a imagem para cima */
+    left: 50%; /* Centraliza */
+    transform: translateX(-50%); /* Ajusta a centralização */
+}
+
+.woman-main {
+    color:white;
+}
+
+.h1-woman {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.p1-woman {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 0rem;
+}
+
+.btn-woman {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: .5rem;
+    width: 13rem;
+    height: 4rem;
+    color: white;
+    background-color: #358468;
+}
+.woman-main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 1.2rem;
+    padding-left: 5rem;
+}
+
+
+/** Vantagem **/
+
+.vantagem-section {
+    display: flex;
+    background-color: #Ebeded;
+    padding: 5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.vantagem-div1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: .2rem;
+}
+
+.vantagem-div1 p {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.vantagem-div2 p{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.vantagem-div2 {
+    max-width: 25%;
+    padding-left: 0px;
+}
+
+/** CESTA **/
+
+.container-cesta {
+    background-color: #F2C94C;
+    border-radius: 2rem;
+    width: 95%;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+}
+
+.cesta {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    gap: 10px;
+}
+
+.img-cesta {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 50%    
+}
+
+.info-cesta {
+    font-size: 1.5rem;
+    padding: 0;
+    width: 45%;
+    padding: 90px;
+    color: white;
+}
+
+.info-cesta h2, p  {
+    width: 22rem;
+    
+}
+
+.info-cesta h2 {
+    font-size: 3rem;
+}
+
+.info-cesta p {
+    font-size: 2rem;
+}
+
+
+/**Products**/
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0% 5%;
+    width: 95%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.product-one {
+    border: #c8c8c8 1px solid;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    max-width: 10rem;
+    max-height: 15rem;
+}
+
+.name-product, .value-products {
+    padding-left: 240px;
+}
+
+.circle-product {
+    background-color: #F2C94C;
+    border-radius: 50%;
+}
+
